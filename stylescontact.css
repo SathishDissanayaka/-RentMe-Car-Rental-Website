@@ -1,0 +1,239 @@
+<!--     .navi ul
+{
+   
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:black;
+
+}
+
+
+
+.navi li {
+    float: left;
+  
+}
+
+
+
+ .navi li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+   font-weight:bold;
+        font-size: 20px;
+        text-decoration:none;
+    }
+
+ .navi li a:hover:not(.now) {
+            background-color:darkslategray;
+        }
+
+.now {
+    background-color:darkolivegreen;
+}
+
+#profilepic {width:60px; height:40px;}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';
+}  
+
+.contact{
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+body
+{   
+    min-height: 50vh;
+    background: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    backdrop-filter: 10px;
+    opacity: 100%;
+    background-image:  url("images/back.jpg") ;
+}    
+
+
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact .content h2
+{
+    font-size: 40px;
+    font-weight: 700;
+    color:black ;
+
+
+}
+
+
+.contact .content p
+{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: top;
+}
+
+.container  .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction:column ;
+}
+
+.container  .contactinfo  .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    flex-direction:column ;
+    
+}
+
+.container  .contactinfo  .box  .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+    
+}
+
+.container  .contactinfo  .box  .text  h3
+{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.container  .contactinfo  .box  .text  p
+{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+
+}
+
+.contactform
+{
+    width: 20%;
+    padding: 40px;
+    background:white ;
+    
+}
+
+.contactform  h2
+{
+   font-size: 30px; 
+   color: black;
+   font-weight: 500;
+}
+
+.contactform  h4
+{
+   font-size: 15px; 
+   color: black;
+   font-weight: 300;
+}
+
+
+.contactform  .inputbox
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px 0;
+
+}
+
+.inputbox input
+{
+    width: 70%;
+    height: 50%;
+    font-size: 16px;
+    outline: none;
+    
+}
+
+.contactform  .inputbox  input
+.contactform  .inputbox  textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline:black;
+    resize: none;
+}
+
+footer 
+{
+    background-color: #1f2020; 
+    padding: 20px 0;
+    color: white; 
+    margin-top: auto; 
+}
+  
+.container  .footer-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-links 
+{
+    list-style: none;
+}
+  
+.footer-links li
+{
+    display: inline;
+    margin-right: 20px;
+}
+  
+.footer-links li:last-child 
+{
+    margin-right: 0;
+}
+  
+.footer-links a 
+{
+    color: white; 
+    text-decoration: none;
+}

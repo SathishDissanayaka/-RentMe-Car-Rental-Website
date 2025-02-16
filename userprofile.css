@@ -1,0 +1,103 @@
+
+* {
+    box-sizing: border-box;
+   
+}
+#profilePhoto{
+    padding:20px;
+}
+button {
+    padding: 10px;
+    background-color: mediumseagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color:blue;
+}
+
+
+body {
+   background-color:antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.profile1 {
+   
+    background-color: lavender;
+    display: flex;
+    max-width: 100%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+}
+
+    .profile1 h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .nameprof{
+
+        text-align:center;
+        font-size: 32px;
+        font-family: bold;
+    }
+.profile {
+    
+    margin:20px;
+    align-items: center;
+    border: 3px groove powderblue;
+    border-radius:5%;
+    padding :50px 20px ;
+    width:45%;
+}
+
+    .profile-info label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    
+
+        
+.kotuwa{align-content:center;}
+
+input {
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+   
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#updatebtn {
+    width: 110px;
+    background-color:mediumseagreen;
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
