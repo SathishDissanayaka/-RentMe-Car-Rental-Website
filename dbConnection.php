@@ -2,7 +2,7 @@
 $databaseHost = 'localhost';
 $databaseName = 'carrental';
 $databaseUsername = 'root';
-$databasePassword = '';
+$databasePassword = ''; //add the real database password here
 
 // Opening a new connection to the MySQL server
 $con = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
